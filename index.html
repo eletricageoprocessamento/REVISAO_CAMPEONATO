@@ -9,7 +9,7 @@
 <h1>SGF — Dashboard de Fiscalização</h1>
 <iframe id="planilha" width="100%" height="650" style="border:0;"></iframe>
 <script>
-const base = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTXmxhbn6UwEiI2kN9LuYR6jH4jfl1-Lk55CR4yc26RPJZNfn_uZCaYbtT7Xt5mGjV3ZPUxeWk6sIvs/pubhtml";
+const base = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTXmxhbn6UwEiI2kN9LuYR6jH4jfl1-Lk55CR4yc26RPJZNfn_uZCaYbtT7Xt5mGjV3ZPUxeWk6sIvs/pubhtml?widget=true&headers=false";
 const sep = base.includes("?") ? "&" : "?";
 const url = base + sep + "t=" + Date.now();
 document.getElementById("planilha").src = url;
